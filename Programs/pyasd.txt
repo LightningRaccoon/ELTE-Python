@@ -1,0 +1,149 @@
+1 1 / 1 pont
+. kérdés
+Az alábbiak közül mit lehet hagyományos adattárolásnak nevezni?
+sql
+excel Helyes!
+python mysql
+2 1 / 1 pont
+. kérdés
+Az alábbiak közül mi "structured data"? fehér papír
+.xls Helyes!
+weboldal .cxs
+3 1 / 1 pont
+. kérdés
+A Big Data-t a következőképpen definiálhatjuk:
+Adatok összessége, ami olyan nagy, komplex, gyors, hogy szinte
+lehetetlenné válik az eltárolása, feldolgozása és analizálása hagyományos
+adat tárolási és analizálási eszközökkel.
+True Helyes!
+False
+4 1 / 1 pont
+. kérdés
+Az alábbiak közül mi "structured data"?
+.pdf
+.csv Helyes!
+photo .docx
+5 1 / 1 pont
+. kérdés
+Mit jelent a következő?
+"Data at Rest"
+adatok amit analizálni lehet adatok amiket nem lehet frissíteni
+nem mozgásban lévő adatok (éppen tárolva vannak valahol) Helyes!
+nem használatban lévő adatok
+6 1 / 1 pont
+. kérdés
+Egy csv fájl importálásához pythonban a(z) ___________-(e)t használjuk.
+csvkit Helyes!
+database sqlite3 sql mind a 3-mat
+7 1 / 1 pont
+. kérdés
+Igaz vagy hamis? A speedtest-cli egy eszköz, amit az internet sebességének
+mérésére használunk, de csak akkor működik, ha a "ping" command is
+működik.
+True Helyes!
+False
+8 1 / 1 pont
+. kérdés
+A BigData relevánsabb az IoT számára.
+True Helyes!
+False
+9 1 / 1 pont
+. kérdés
+Az alábbiak közül melyik nem data analysis lépés?
+Make Decisions Prepare Data
+Use Python Helyes!
+Choose a Model
+10 1 / 1 pont
+. kérdés
+Hogy nevezik azt a folyamatot, amikor
+összegyűjtjük az adatokat különböző forrásokból,
+átalakítjuk őket,
+aztán betöltjük egy adatbázisba?
+adatok összegyűjtése adatok importálása a pandas segítségével adatok kezelése sqlite3-mal
+ETL Helyes!
+11 1 / 1 pont
+. kérdés
+Egy pandas-al beimportált data fájl(BB-nek nevezzük el) korrelációját
+megkaphatjuk a következő metódussal: BB.describe()
+BB.corr() Helyes!
+brainFrame.corr(method='pearson') brainFrame.corr()
+12 1 / 1 pont
+. kérdés
+Adj hozzá egy új oszlopot a dataframe-hez és töltsd fel kerekített értékekkel.
+Az adatok a következőek, a dataframe neve da, a round metódusnak 2
+értéket kell megadni.
+wieght
+0 1.00000
+1 2.00000
+2 3.00000
+3 4.00000
+data['rounded'] = data.weight.lambda (2)(2)
+da['rounded'] = da.weight.round(2) Helyes!
+data['rounded'] = data.weight.round(2) data['rounded'] = data.weight.Round(2)
+13 1 / 1 pont
+. kérdés
+A "Heat map"-et egy dataframe korrelációjának a vizualizálására is
+használhatjuk.
+True Helyes!
+False
+14 1 / 1 pont
+. kérdés
+Telepítsd a "seaborn" modult jupyterből, nem terminálban.
+!pip install seaborn
+Helyes!
+elyes válaszok !pip install seaborn
+15 1 / 1 pont
+. kérdés
+df_compact_clean = df_compact_clean.reindex(columns = ['Date', 'Time',
+'Ping (ms)','Download (Mbit/s)','Upload (Mbit/s)']);
+Mi lesz az első oszlop?
+Upload (Mbit/s) Date Time Ping (ms) Download (Mbit/s)
+0 14.31 2016-11-24 13:36:25 26.992 91.80
+1 14.12 2016-11-24 13:36:55 24.532 88.19
+2 14.11 2016-11-24 13:37:25 20.225 59.86
+3 14.22 2016-11-24 13:37:57 19.332 91.81
+4 14.08 2016-11-24 13:38:27 22.494 92.05
+Upload (Mbit/s)
+Date Helyes!
+Download (Mbit/s) Time
+16 1 / 1 pont
+. kérdés
+Melyik metódus adja vissza ezt az output-ot a PP nevű dataframeről?
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 915 entries, 0 to 914
+Data columns (total 12 columns):
+PassengerId 915 non-null int64
+Survived 915 non-null int64
+Pclass 915 non-null int64
+Name 915 non-null object
+Gender 915 non-null object
+Age 738 non-null float64
+SibSp 915 non-null int64
+PP.head() Mindegyik
+PP.info() Helyes!
+PP.describe()
+17 1 / 1 pont
+. kérdés
+Csak a "data"-ból tanulás (learn from the data itself):
+Unsupervised ML Helyes!
+Supervised ML Data Mining AI
+18 1 / 1 pont
+. kérdés
+Hogy egy nyilat rajzoljunk a figurára, a ____________ metódust
+használhatjuk a matplotlib modulból (plt)
+plt.annotate() Helyes!
+plt.plot() plt.xticks() plt.legend()
+19 0 / 1 pont
+. kérdés
+Machine Learning-et használva, hogy előre megbecsüljünk valamit az adatok
+alapján, a zaj hányados (noise ratio) kiszámítása fontos. Szükség van rá,
+hogy tudjuk mennyire pontos a becslés.
+True Helyes válasz
+False Megadott válasz
+20 1 / 1 pont
+. kérdés
+Amikor klasszifikálást használunk Machine Learning-ben, nagyon valószínű,
+hogy fogunk használni a data vizualizációhoz:
+hist matplotlib
+tree from graphviz Helyes!
+heat map
